@@ -156,10 +156,10 @@ WHERE K = 50;
 
 #### Question 2
 
+On privilégie un hachage extensible à un hachage linéaire dans le cas de données mal équilibrées.
 
+#### Question 3
 
+#### Question 4
 
-
-
-
-
+On privilégie un hachage linéaire à un B+ Tree dans le cas où on cherche une clé précise.

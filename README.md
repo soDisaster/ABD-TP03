@@ -145,6 +145,8 @@ On privilégie un hachage extensible à un hachage linéaire dans le cas de donn
 
 #### Question 3
 
+La méthode simple de hachage statique a pour avantage le fait que la lecture d'un élément s'effectue en une entrée-sortie. En revanche, la taille du fichier doit être fixée a priori et le débordement dégrade les performances en augmentant le nombre d'entrée-sortie. Le hachage linéaire quant à lui permet de s'affranchir de cette limitation en substituant aux techniques de débordement un accroissement dynamique de la taille du fichier, la méthode devenant alors plus complexe.
+
 #### Question 4
 
 On privilégie un hachage linéaire à un B+ Tree dans le cas où on cherche une clé précise.  
